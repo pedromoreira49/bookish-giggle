@@ -1,0 +1,14 @@
+@host = http://localhost:8080/books
+
+###
+
+{{host}}
+
+###
+
+POST {{host}}
+Content-Type: application/json
+
+{
+    "nome": "Tecnicas de invasao"
+}
